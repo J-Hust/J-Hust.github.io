@@ -12,7 +12,29 @@
   flex-grow: 0;
   width: 100%;
   height: 30vw;
-  background-color: #E0C122;
+  background-color: #e0c122;
   text-align: center;
-  align-content: center
+  align-content: center;
+  padding: 30px;
+  justify-content: center;
+}
+
+.stuff {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.aboutme {
+  display: flex
+}
+
+#me {
+  justify-content: flex-end;
+  align-items: center
+}
+
+#mypic {
+  justify-content: flex-start;
+  align-items: center;
 }

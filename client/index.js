@@ -4,6 +4,10 @@ import ReactDOM from 'react-dom';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import MainNav from './components/navbar';
 import Top from './components/top';
+import Portfolio from './components/portfolio';
+import About from './components/about';
+import Contact from './components/contact';
+
 
 const App = () => (
   <MuiThemeProvider>
@@ -12,6 +16,9 @@ const App = () => (
     </div>
     <div className="Site-content">
       <Top />
+      <About />
+      <Portfolio />
+      <Contact />
     </div>
   </MuiThemeProvider>
 );

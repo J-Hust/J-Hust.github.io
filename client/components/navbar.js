@@ -31,7 +31,10 @@ const MainNav = classes => (
   <div className={classes.root}>
     <AppBar position="fixed">
       <Toolbar>
+      <div style={{display: 'flex',
+      justifyContent: 'space-between', width: '100%'}}>
         <div className={classes.flex}>
+
           <i style={styles.logo} className="material-icons">
             ?
           </i>
@@ -40,6 +43,7 @@ const MainNav = classes => (
           </Typography>
         </div>
         <div style={styles.navs}>About Portfolio Contact</div>
+      </div>
       </Toolbar>
     </AppBar>
   </div>
